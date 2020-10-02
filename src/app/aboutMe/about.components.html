@@ -1,0 +1,58 @@
+<div id="about">
+  <div class="about_header">
+    <div class="about_text">Welcome</div>
+    <ul class="about_signatures">
+      <li>
+        <a routerLink="/"><fa-icon [icon]="faMinus"></fa-icon></a>
+      </li>
+      <li>
+        <a href='#'><input [className]="active" type="text" value="YegiZavr.com"></a>
+        <a (click)="active = !active"><fa-icon [icon]="faShareAlt"></fa-icon></a>
+      </li>
+      <li>
+        <fa-icon [icon]="faBatteryFull" style="color: #01c853"></fa-icon>
+      </li>
+    </ul>
+  </div>
+  <div class="container">
+    <div class="left_side">
+      <div class="photo"></div>
+      <ul class="social">
+        <li><a href="#">
+          <fa-icon [icon]="faFacebook"></fa-icon>
+          <div>Facebook</div>
+        </a></li>
+        <li><a href="#">
+          <fa-icon [icon]="faInstagram"></fa-icon>
+          <div>Instagram</div>
+        </a></li>
+        <li><a href="#">
+          <fa-icon [icon]="faTelegramPlane"></fa-icon>
+          <div>Telegram</div>
+        </a></li>
+        <li><a href="#">
+          <fa-icon [icon]="faGithub"></fa-icon>
+          <div>GutHub</div>
+        </a></li>
+      </ul>
+    </div>
+    <div class="right_side">
+      <div class="name">
+        Ishchenko Yehor
+      </div>
+      <div class="work">
+         Front-end developer
+      </div>
+      <div class="info">
+        <ul class="info_left">
+          <li *ngFor="let info_l of info_l">{{info_l}}</li>
+        </ul>
+        <ul class="info_right">
+          <li *ngFor="let info_r of info_r">{{info_r}}</li>
+          <li>Available <fa-icon [icon]="faCalendarCheck" style="color: #01c853"></fa-icon> </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
