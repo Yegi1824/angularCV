@@ -3,7 +3,7 @@ import {faShareAlt, faMinus, faBatteryEmpty} from '@fortawesome/free-solid-svg-i
 import {routingAnimation} from "../shared/animations/routing-animation";
 import {FormControl, FormGroup, Validators} from "@angular/forms";
 
-
+asdasdasdasd
 
 @Component({
   selector: 'app-contacts',
