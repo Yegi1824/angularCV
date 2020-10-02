@@ -1,4 +1,4 @@
-import {Component, HostBinding, NgModule, OnInit} from '@angular/core';
+import {Component, HostBinding, OnInit} from '@angular/core';
 import {faShareAlt, faMinus, faBatteryEmpty} from '@fortawesome/free-solid-svg-icons';
 import {routingAnimation} from "../shared/animations/routing-animation";
 import {FormControl, FormGroup, Validators} from "@angular/forms";
